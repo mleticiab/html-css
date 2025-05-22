@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+
+        @font-face {
+            font-family: 'Desafio';
+            src: url('fontes/idroid.otf') format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            background-color: #78e6c5;
+            font-family: sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background: linear-gradient(to top, #0e4422, #0DEAA7);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+
+        nav > a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin-right: 30px;
+            margin-top: 1px;
+        }
+        
+        h1 {
+            text-align: center;
+            text-shadow: 10px black;
+        }
+
+        h2 {
+            text-indent: 10px;
+            color: #0e4422; 
+            font-family: 'Desafio';   
+        }
+
+        p {
+            text-align: center;
+            padding: 3px;
+        }
+
+        main {
+            background-color: white;
+            max-width: 700px; 
+            margin-inline: auto;
+            padding: 1px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        section {
+            width: 300px;
+        }
+
+        h3 {
+            font-family: 'Desafio'; 
+            text-indent: 7px;
+            color: #0e4422;
+            box-shadow: #0e4422;
+            margin-inline: 15px;
+        }
+
+        h4 {
+            color: white;
+        }
+
+        a {
+            color: #0e4422;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+
+        .artigo {
+            text-align: justify; 
+            text-indent: 30px;
+        }
+
+        .formatada {
+            background: linear-gradient(to right, #78e6c5, white);
+        }
+
+        .final {
+            text-align: left;
+            text-indent: 1em;
+            padding: 8px 10px 20px 10px;
+            margin: 13px 5px 11px 5px;
+            
+        }
+
+        .extra {
+            background-color: #c5ebd6;
+            padding: 5px 20px 10px 20px;
+            border-radius: 10px;
+            margin: 5px 10px 10px 10px;
+        
+        }
+
+        .extras {
+            background-color: #3d8858;
+            padding: 10px;
+            display: block;
+            margin: -13px -20px 20px -20px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .p-extra {
+            text-align: left;
+            text-indent: 20px;
+        }
+
+        .check-list {
+            list-style: none; /* remove o marcador padrão */
+            padding: 0;
+        }
+
+        .check-list li::before {
+            content: "✔️";
+            color: green;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        footer {
+            background-color: #4c6957;
+            color: white;
+        }
+
+        iframe {
+            display: block;
+            margin: auto;
+        }
