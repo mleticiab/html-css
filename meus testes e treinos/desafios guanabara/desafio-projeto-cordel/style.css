@@ -1,0 +1,65 @@
+@metacharset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: Sriracha Regular;
+    src: url(fontes/Sriracha-Regular.ttf) format(truetype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Passion One';
+    color: white;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 50px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main{
+    font-size: 2.5em;
+    font-weight: normal;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+h2 {
+    font-family: Sriracha Regular;
+    line-height: 2em;
+    font-weight: normal;
+}
+
+footer {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
