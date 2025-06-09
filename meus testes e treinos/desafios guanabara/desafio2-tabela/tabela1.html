@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela1</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            padding: 4px;
+            border: 2px solid black;
+            font-size: 1.2em;
+        }
+
+        th.cor {
+            background-color: rgb(100, 98, 98);
+            color: white;
+        }
+
+        td.corr {
+            background-color: rgb(100, 98, 98);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th class= "cor" colspan="1" rowspan="2" scope="rowgroup">Área</th>
+            <th class= "cor" colspan="1" rowspan="2" scope="rowgroup">Disciplinas</th>
+            <th class= "cor" colspan="2" scope="rowgroup" scope="colgroup">Notas</th>
+            <th class= "cor" colspan="2" rowspan="2" scope="rowgroup">Média</th>
+            <tr>
+                <th class= "cor" scope="rowgroup">Nota 1</th>
+                <th class= "cor" scope="rowgroup">Nota 2</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            
+            
+            <tr>
+                <th rowspan="4" colspan="1" scope="colgroup">Exatas</th>
+                <td colspan="1">Matemática</td>
+                <td colspan="1">0.0</td>
+                <td colspan="1">0.0</td>
+                <td colspan="2">0.0</td>
+            </tr>
+            <tr>
+                <td colspan="1">Física</td>
+                <td colspan="1">0.0</td>
+                <td colspan="1">0.0</td>
+                <td colspan="2">0.0</td>
+            </tr>
+            <tr>
+                <td colspan="1">Química</td>
+                <td colspan="1">0.0</td>
+                <td colspan="1">0.0</td>
+                <td colspan="2">0.0</td>
+            </tr>
+            <tr>
+                <td colspan="1">Biologia</td>
+                <td colspan="1">0.0</td>
+                <td colspan="1">0.0</td>
+                <td colspan="2">0.0</td>
+            </tr>
+            <tr>
+                <th class= "cor" colspan="4" scope="colgroup" style="text-align: left;">Média de Exatas</th>
+                <td class= "corr" >0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="colgroup">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th class="cor" colspan="4" style="text-align: left;" scope="colgroup">Média de Humanas</th>
+                <td class= "corr" >0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
