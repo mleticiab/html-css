@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* Aparelho deitado (landscaspe) */
+
+body {
+    background-image: url(../imagens/icon-paisagem.png);
+    background-position: center bottom;
+}
+
